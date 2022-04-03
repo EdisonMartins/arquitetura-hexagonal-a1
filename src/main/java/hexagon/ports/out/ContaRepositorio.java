@@ -1,6 +1,6 @@
-package conta.sistema.porta;
+package hexagon.ports.out;
 
-import conta.sistema.dominio.modelo.Conta;
+import hexagon.domain.model.conta.Conta;
 
 public interface ContaRepositorio {
     Conta get(Integer numero);

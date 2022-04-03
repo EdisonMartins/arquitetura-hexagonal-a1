@@ -1,8 +1,8 @@
 package teste.unidade.dominio.servico;
 
-import conta.sistema.dominio.modelo.Conta;
-import conta.sistema.dominio.modelo.NegocioException;
-import conta.sistema.dominio.servico.Transferencia;
+import hexagon.domain.model.conta.Conta;
+import hexagon.domain.model.conta.NegocioException;
+import hexagon.domain.service.Transferencia;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

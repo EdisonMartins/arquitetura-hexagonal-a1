@@ -1,7 +1,7 @@
 package teste.casouso;
 
-import conta.sistema.casouso.porta.PortaTransferencia;
-import conta.sistema.dominio.modelo.NegocioException;
+import hexagon.usercase.PortaTransferencia;
+import hexagon.domain.model.conta.NegocioException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

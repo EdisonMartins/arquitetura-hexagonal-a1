@@ -1,8 +1,8 @@
-package conta.adaptador;
+package driven.mock;
 
-import conta.sistema.dominio.modelo.Conta;
-import conta.sistema.dominio.modelo.NegocioException;
-import conta.sistema.porta.ContaRepositorio;
+import hexagon.domain.model.conta.Conta;
+import hexagon.domain.model.conta.NegocioException;
+import hexagon.ports.out.ContaRepositorio;
 
 import javax.inject.Named;
 import java.math.BigDecimal;
