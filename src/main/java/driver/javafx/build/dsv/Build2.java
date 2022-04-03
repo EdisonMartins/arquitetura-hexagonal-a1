@@ -1,7 +1,8 @@
-package teste.casouso;
+package driver.javafx.build.dsv;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+
 /**
  * Configuration: Responsavel por configurar os serviços do spring
  * @ComponentScan: Configura as diretivas de varredura.
@@ -9,14 +10,16 @@ import org.springframework.context.annotation.Configuration;
  * conta.sistema: Pacote do Hexágono
  * conta.adaptador: Pacote dos Adaptadores Mock
  *
- * Build 1: Adaptador Testes -> Sistema <- Adptadores Mocks
+ * Build 2: Adaptador Interface Gráfica → Sistema ← Adaptadores Mocks
  *          O Objetivo é testar o hexágono.
  *
  * **/
 @Configuration
 @ComponentScan({
-        "hexagon",
-        "driven.mock",
+        "conta.dsv",
+        "conta.tela",
+        "conta.sistema",
+        "conta.adaptador",
     })
-public class Build1 {
+public class Build2 {
 }
